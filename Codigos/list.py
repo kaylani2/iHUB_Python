@@ -33,6 +33,13 @@ print (type (umaTupla))
 print (umaTupla [0])
 
 nome = input ('Digite o nome:')
-pessoa = {'nome': nome, 'idade': 24, 'cpf': '149...', 'bairros': ['bangu', 'pechincha']}
+pessoa = {'nome': nome, 'idade': 24, 'cpf': '149...', 'bairros': ['bangu', 'valqueire', 'pechincha']}
 print (pessoa ['nome'])
-print (pessoa ['bairros'][0])
+print (pessoa ['bairros'][1])
+
+
+
+pessoaA = {'nome': 'oskdoak', 'idade': 24, 'cpf': '149...', 'bairros': ['bangu', 'valqueire', 'pechincha']}
+pessoaB = {'nome': nome, 'idade': 24, 'cpf': '149...', 'bairros': ['bangu', 'valqueire', 'pechincha']}
+
+lista = [pessoaA, pessoaB]

@@ -3,8 +3,7 @@ def imprimirLista (lista):
     print (elemento)
   return 0
 
+pessoa = {'nome': nome, 'idade': 24, 'cpf': '149...', 'bairros': ['bangu', 'valqueire', 'pechincha']}
 minhaLista = ['nomes', 'outrosNomes', 'ok']
-for elemento in minhaLista:
-  print (elemento)
 
-imprimirLista (minhaLista)
+imprimirLista (pessoa ['bairros'])
