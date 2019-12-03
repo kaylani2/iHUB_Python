@@ -16,7 +16,12 @@ class Veiculo:
     print (self.__cor, self.marca)
 
   def andar (self, metros):
-    print ('Andei', metros, 'metros.')
+    try:
+      x = int (metros)
+    except:
+      print ('Nao da pra andar string metros.')
+    else:
+      print ('Andei', metros, 'metros.')
 
   def __del__ (self):
     print ('Veiculo da cor', self.__cor, 'destruido.')
